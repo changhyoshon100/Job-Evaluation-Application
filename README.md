@@ -1,4 +1,6 @@
-Job-Evaluation-Application
+# Job-Evaluation-Application
+
+
 Android application for comparing job offers using a weighted ranking algorithm with SQLite-based data management.
 
 ********* Project Overview *********
