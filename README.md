@@ -16,12 +16,14 @@ Ranking Algorithm: Compute scores using weighted factors (salary, benefits, etc.
 SQLite Integration: Persistent storage of job data
 Dynamic Ranking: Automatically updates rankings when new data is added
 UI Workflow: Select and compare two job offers through an intuitive interface
+
 ******* Technical Highlights ********
 
 Designed and implemented a scoring algorithm to rank job offers based on multiple weighted criteria
 Developed a structured SQLite database for efficient data storage and retrieval
 Built modular architecture separating UI, data layer, and business logic
 Implemented selection constraints and comparison logic within the Android UI flow
+
 *********** Tech Stack **************
 
 Java
