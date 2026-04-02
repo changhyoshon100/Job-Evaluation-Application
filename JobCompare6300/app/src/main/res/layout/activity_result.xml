@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comparison Result"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job1Header"
+                    android:padding="8dp"
+                    android:text="Job 1" />
+
+                <TextView
+                    android:id="@+id/job2Header"
+                    android:padding="8dp"
+                    android:text="Job 2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Title" />
+
+                <TextView
+                    android:id="@+id/job1Title"
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job2Title"
+                    android:padding="8dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Company" />
+
+                <TextView
+                    android:id="@+id/job1Company"
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job2Company"
+                    android:padding="8dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Location" />
+
+                <TextView
+                    android:id="@+id/job1Location"
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job2Location"
+                    android:padding="8dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Adj. Salary" />
+
+                <TextView
+                    android:id="@+id/job1Salary"
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job2Salary"
+                    android:padding="8dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Adj. Bonus" />
+
+                <TextView
+                    android:id="@+id/job1Bonus"
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job2Bonus"
+                    android:padding="8dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Stock Option Shares" />
+
+                <TextView
+                    android:id="@+id/job1Stock"
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job2Stock"
+                    android:padding="8dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Wellness Stipend" />
+
+                <TextView
+                    android:id="@+id/job1Wellness"
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job2Wellness"
+                    android:padding="8dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Life Insurance" />
+
+                <TextView
+                    android:id="@+id/job1Insurance"
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job2Insurance"
+                    android:padding="8dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="PDF" />
+
+                <TextView
+                    android:id="@+id/job1Pdf"
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job2Pdf"
+                    android:padding="8dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Score" />
+
+                <TextView
+                    android:id="@+id/job1Score"
+                    android:padding="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/job2Score"
+                    android:padding="8dp"
+                    android:text="" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonChooseJobs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compare other jobs" />
+
+            <Button
+                android:id="@+id/buttonReturnToMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Return to main menu" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

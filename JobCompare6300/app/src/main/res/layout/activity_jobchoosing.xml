@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comparison Setting"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/job1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#1 Title Company Score" />
+
+            <CheckBox
+                android:id="@+id/job2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#2 Title Company Score" />
+
+            <CheckBox
+                android:id="@+id/job3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#3 Title Company Score" />
+
+            <CheckBox
+                android:id="@+id/job4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#4 Title Company Score" />
+
+            <CheckBox
+                android:id="@+id/job5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#5 Title Company Score" />
+
+            <CheckBox
+                android:id="@+id/job6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#6 Title Company Score" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:id="@+id/buttonCompare"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="Compare"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/errorMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="143dp"
+                android:text=""
+                android:textColor="@android:color/holo_red_dark"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
